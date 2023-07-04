@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    height: 100%;
+    gap: 5vw
+}
+
+.link-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    /* border: 2px solid red */
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* .link-item:hover {
+    border-bottom: 2px solid #dd4458;
+} */
+
+.main {
+    height: 89vh;
+    position: relative;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25vw;
+    top: 22vh
+}
+
+.top {
+    color: white;
+    font-size: 10rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    color: #8ec3c0
+}
+
+.top span {
+    color: #dd4458
+}
+
+.active {
+    border-bottom: 2px solid #dd4458;
+}
